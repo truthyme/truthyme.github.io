@@ -1,0 +1,50 @@
+*{
+
+}
+.logo p{
+    color:white;
+    font-weight: 800;
+}
+.logo{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.logo h4{
+    font-style:italic;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-weight:900;
+    margin-top: 5px;
+    color:transparent;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: red;
+
+}
+.logo h4:hover{
+    color: red;
+}
+.nav{
+    width: 100%;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    height: 60px;
+    line-height: 60px;
+    background-color: black;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+}
+.nav ul li{
+    list-style: none;
+    margin: -15px 20px 50px;
+}
+.nav ul li a{
+    color: red;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: blue;
+}
